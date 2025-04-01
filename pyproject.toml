@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetest"
+version = "0.1.0"
+description = "Testing Poetry GitHub action"
+authors = ["Christoph <367712+folkengine@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+create = true
+in-project = true

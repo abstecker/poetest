@@ -1,19 +1,37 @@
-[![Build and Test](https://github.com/devplaybooks/.baseline/actions/workflows/CI.yml/badge.svg)](https://github.com/devplaybooks/.baseline/actions/workflows/CI.yml)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE-APACHE)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE-GPLv3)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE-MIT)
+# Poetest
 
----
+## Resources
 
-# Base Template for Dev Playbooks
+- [The Hitchhiker's Guide to Python XML Parsing](https://python-guide-kr.readthedocs.io/ko/latest/scenarios/xml.html)
 
-Includes:
+## Overview
 
-* [Actions Blank CI Starter Workglow](https://github.com/actions/starter-workflows/blob/main/ci/blank.yml)
-* [bnb's](https://github.com/bnb) [Codespaces Base Starter](https://github.com/codespaces-examples/base)
-* Choice of licenses:
-    * [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
-    * [GPL 3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html)
-    * [MIT License](https://opensource.org/license/mit/)
-* [Shields.io](https://shields.io/) [Badges](https://github.com/badges/shields)
+This project is a Python package that demonstrates the use of Poetry for dependency management and packaging. It includes a simple implementation in the `main.py` file and is structured to facilitate easy testing and maintenance.
+
+## Installation
+
+To install the project and its dependencies, you can use Poetry. First, ensure you have Poetry installed on your system. Then, run the following commands:
+
+```bash
+poetry install
+```
+
+## Usage
+
+After installing the project, you can run the main functionality by executing the following command:
+
+```bash
+poetry run python src/my_poetry_project/main.py
+```
+
+## Running Tests
+
+To run the tests for this project, you can use the following command:
+
+```bash
+poetry run pytest
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
